@@ -1,0 +1,70 @@
+.rtl .aside-menu {
+    right: 0;
+    left: inherit;
+}
+
+.rtl .nav-panel {
+    right: 0;
+    left: inherit;
+}
+
+.rtl .menu-panel {
+    transition: right 150ms;
+    -webkit-transition: right 150ms;
+    -moz-transition: right 150ms;
+    -ms-transition: right 150ms;
+    -o-transition: right 150ms;
+    right: -300px;
+    left: inherit;
+}
+.rtl .search-bar .search-form input[type="submit"],
+.rtl .search-bar .search-form:before {
+    left: 0;
+    right: inherit;
+}
+
+.rtl .main-navigation .menu li a i {
+    left: 10px;
+    right: inherit;
+}
+
+.rtl .site {
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+@media screen and (min-width: 992px) {
+    body.rtl.extended-menu .menu-panel {
+        right: 70px;
+    }
+
+    body.rtl.extended-menu .site {
+        margin-right: 370px;
+        margin-left: auto;
+    }
+}
+
+.rtl #scroll-up {
+    left: 30px;
+    right: inherit;
+}
+
+.rtl .slidernav .slick-arrow {
+    transform: scaleX(-1);
+}
+
+.rtl .main-slider .slider-content {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.rtl .slick-dots {
+    text-align: left;
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.rtl .breadcrumbs ul li span:before{
+    margin-left: 10px;
+    margin-right: auto;
+}
